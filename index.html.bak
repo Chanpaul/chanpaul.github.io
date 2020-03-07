@@ -41,7 +41,7 @@ var _hmt = _hmt || [];
         <!--Start Intro-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <img class="image" src="img/profile.png"  height="200" width="200">
+            <img class="image" src="img/profile.png"  height="200" width="100">
           </div>
           <div class="flex-item flex-column">
             <p class="text text-large">
