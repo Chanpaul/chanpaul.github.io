@@ -164,10 +164,7 @@
                     <h2>Teaching</h2>
                     <hr class="star-light">
                 </div>
-            </div>
-            <h3 id="Introduction To Artificial Intelligence"><a href="courses/2020ai.html"> Introduction to Artificial Intelligence</a></h3>
-             <p><a href="courses/2020ai.html"> Introduction to Artificial Intelligence</a></h3>
-             <h3 id="Linux Shell"><a href="courses/2020linuxSysAdmin.html"> Linux Shell & System Administrating</a></h3>
+            </div>            
            <!--
             <div class="row">
                           
@@ -180,6 +177,9 @@
             </div>             
            -->
         </div>
+        <h3 id="Introduction To Artificial Intelligence"><a href="courses/2020ai.html"> Introduction to Artificial Intelligence</a></h3>
+             <p><a href="courses/2020ai.html"> Introduction to Artificial Intelligence</a></h3>
+             <h3 id="Linux Shell"><a href="courses/2020linuxSysAdmin.html"> Linux Shell & System Administrating</a></h3>
     </section>
 
     <!-- Contact Section -->
