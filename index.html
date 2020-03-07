@@ -1,146 +1,476 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.59.1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Freelancer - Yourname Theme</title>
 
-<title>Jin Wang's website</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  </head>
-  <body>    
-    
-    <h1>AI lecture</h1>
-       
-<h2 id="Introduction To Artificial Intelligence-2020 Spring">Introduction To Artificial Intelligence-2020 Spring</h2>
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
 
-<h3 id="更新通知">更新通知</h3>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-<h4 id="2020-03-05">2020/03/05</h4>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<blockquote>
-<p>期末考试为半开卷考试，考查范围主要涉及：搜索算法，约束满足问题，博弈问题，MDP，增强学习，概率推理，贝叶斯网络，决策网络和信息价值，隐式马可夫网络，机器学习等相关内容。</p>
-</blockquote>
+</head>
 
-<h4 id="2020-03-05">2020/03/05</h4>
+<body id="page-top" class="index">
 
-<blockquote>
-<p>Project 1 has been posted.</p>
-</blockquote>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Yourname</a>
+            </div>
 
-<h3 id="Homework">Homework</h3>
-<!--
-<ul>
-<li><a href="hw/HW1.pdf">作业1</a>, <a href="hw/HW1_solution_publish.pdf">答案1</a></li>
-<li><a href="hw/HW2.pdf">作业2</a>, <a href="hw/HW2_solution_publish.pdf">答案2</a></li>
-<li><a href="hw/HW3.pdf">作业3</a>, <a href="hw/HW3_solution_publish.pdf">答案3</a></li>
-<li><a href="hw/HW4.pdf">作业4</a></li>
-<li><a href="hw/HW5.pdf">作业5</a></li>
-<li><a href="hw/HW6.pdf">作业6</a></li>
-</ul>
--->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<h3 id="Schedule">Schedule</h3>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Hey there! I am Yourname!</span>
+                        <hr class="star-light">
+                        <span class="skills">Add your skills here. Eg: <br/> Web Developer - Graphic Artist</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<table>
-<thead>
-<tr>
-<th>Num.</th>
-<th>Date</th>
-<th align="left">Topic</th>
-<th>Reading</th>
-<th>Slides</th>
-<th>Video</th>
-</tr>
-</thead>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<tbody>
-<tr>
-<td>1st Leccure</td>
-<td>Feb. 26</td>
-<td align="left">Overview of Aritifical Intelligence</td>
-<td>Chapter 1</td>
-<td><a href="slides/lec1-Introduction to AI & Agent.pptx">ppt</a></td>
-<td<a href="https://ke.qq.com/webcourse/index.html?cid=1065412&term_id=101161437&lite=1&from=800021724#taid=3208343&vid=5285890799255218306" target="_blank">video</a></td>
-</tr>
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Write a paragraph about who you are, where you're from, etc.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Write a short paragraph about your hobbies and interests.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <!-- <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-<tr>
-<td>2nd Leccure</td>
-<td>Feb. 28</td>
-<td align="left">Uninformed Search (I)</td>
-<td>Chapter 3, 3.1-3.4</td>
-<td><a href="slides/lec2-Search.pptx">ppt</a></td>
-<td<a href="https://ke.qq.com/webcourse/index.html?cid=1065412&term_id=101161437&lite=1&from=800021724#taid=4275171&vid=5285890799361971647" target="_blank">video</a></td>
-</tr>
+    <!-- Contact Section -->
 
-<tr>
-<td>3rd Leccure</td>
-<td>Mar. 04</td>
-<td align="left">Uninformed Search(II) & Informed Search</td>
-<td>Chapter 3, 3.1-3.4</td>
-<td><a href="slides/lec2-Search.pptx">ppt</a></td>
-<td<a href="https://ke.qq.com/webcourse/index.html?cid=1065412&term_id=101161437&lite=1&from=800021724#taid=6353183&vid=5285890799579647452" target="_blank">video</a></td>
-</tr>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Your hostel address line 1
+                            <br>Your hostel address line 2</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Yourname</h3>
+                        <p><a href="http://startbootstrap.com">Yourname</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-</tbody>
-</table>
-    
-<!--
-<h3 id="Course Information">Course Information</h3>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
 
-<h4 id="Textbook">Textbook：</h4>
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<ul>
-<li>Artificial Intelligence: A Modern Approach, 3rd edition, Stuart J. Russell
-and Peter Norvig. Prentice Hall, 2009.</li>
-</ul>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-<h4 id="Reference">Reference</h4>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-<ul>
-<li>李德毅、于剑，《人工智能导论》，中国科学技术出版社，2018</li>
-<li>王万良，人工智能导论（第4版，十二五普通高等教育本科规划教材），高等教育出版社，2017 </li>
-</ul>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-<h4 id="Others">Others</h4>
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
 
-<ul>
-<li><a href="http://mathworld.wolfram.com/">Wolfram mathworld</a></li>
-<li><a href="http://www.mathwarehouse.com/">Math Warehouse</a></li>
-</ul>
+</body>
 
-<h4 id="Machine learning Related">Some guides to machine learning</h4>
-
-<ul>
-<li><a href="https://www.kaggle.com/competitions">Kaggle competitions</a></li>
-<li><a href="https://www.kaggle.com/datasets">Kaggle datasets</a></li>
-<li><a href="http://www.chalearn.org/challenges.html">Challenges in machine learning</a></li>
-<li><a href="https://competitions.codalab.org/">Competitions at Codalab</a></li>
-<li><a href="http://www.csmining.org/cdmc2017/">Cybersecurity data mining competition 2017</a></li>
-<li><a href="https://www.kdnuggets.com/">kdnuggets</a></li>
-<li><p><a href="http://cs229.stanford.edu/">Machine learning course at Stanford</a></p></li>
-</ul>
-
-<h4 id="python-参考">Python 参考</h4>
-
-<ul>
-<li><a href="https://conda.io/docs/commands.html">Conda documentation</a></li>
-<li><a href="https://docs.python.org/3/index.html">Python documentation</a></li>
-<li><a href="https://docs.python.org/3/tutorial/index.html">Python tutorial</a></li>
-<li><a href="https://docs.scipy.org/doc/numpy/">Numpy manual</a></li>
-<li><a href="https://docs.scipy.org/doc/numpy-1.13.0/user/numpy-for-matlab-users.html">NumPy for Matlab users</a></li>
-<li><a href="http://cs231n.github.io/python-numpy-tutorial/">Numpy tutorial</a></li>
-<li><a href="http://cvxopt.org/userguide/index.html">CVXOPT user&rsquo;s guide</a></li>
-<li><a href="http://pandas.pydata.org/">Python data analysis library &ndash; pandas</a></li>
-<li><a href="http://pytorch.org/">pytorch, tensors and dynamic neural nets in python</a></li>
-<li><a href="https://keras.io/">Keras &ndash; Python Deep Learning library (high level)</a>
-
-<ul>
-<li><a href="https://blog.keras.io/index.html">Keras blog</a></li>
-</ul></li>
-</ul>
--->
-  </body>
 </html>
-
