@@ -68,9 +68,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="" height="42" width="42">
+                    <img class="img-responsive" src="img/profile.png" alt="" height="200" width="100">
                     <div class="intro-text">
-                        <span class="name">Hi, welcome visiting my page! I am Jin Wang!</span>
+                        <span class="name"> Jin Wang</span>
                         <hr class="star-light">
                         <span class="skills">Phd, Associate Professor <br/> School of Information Science & Technology <br/> Chengdu University <br/> 2025 Chengluo Rd., Chengdu, Sichuan, China 610106</span>
                     </div>
