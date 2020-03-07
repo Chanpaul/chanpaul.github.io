@@ -165,6 +165,9 @@
                     <hr class="star-light">
                 </div>
             </div>
+             <h3><a href="courses/2020ai.html"> Introduction to Artificial Intelligence</a></h3>
+             <h3><a href="courses/2020linuxSysAdmin.html"> Linux Shell & System Administrating</a></h3>
+           <!--
             <div class="row">
                           
                 <div class="col-lg-4 col-lg-offset-2">
@@ -172,14 +175,9 @@
                 </div>
                 <div class="col-lg-4">
                     <p><a href="courses/2020linuxSysAdmin.html"> Linux Shell & System Administrating</a></p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <!-- <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a> -->
-                </div>                
+                </div>                               
             </div>             
-           
+           -->
         </div>
     </section>
 
