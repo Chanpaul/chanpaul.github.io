@@ -41,7 +41,7 @@ var _hmt = _hmt || [];
         <!--Start Intro-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <img class="image" src="img/profile.png"  height="300" width="100">
+            <img class="image" src="img/profile.png"  height="300" width="70">
           </div>
           <div class="flex-item flex-column">
             <p class="text text-large">
@@ -63,6 +63,22 @@ var _hmt = _hmt || [];
           </div>
         </div>
         <!--End Intro-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text Only-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">News</h2>
+            <hr>
+            <p class="text">
+              I will serve as program comittee for <a href="http://mobimedia.org/" target="_blank">EAI Mobimedia 2020</a>.
+            </p>
+            <p class="text">
+              <a href="" target="_blank">Linux System Administration</a>
+            </p>
+            
+          </div>
+        </div>
+        <!--End Text Only-->
         <!-------------------------------------------------------------------------------------------->
         <!--Start Text Only-->
         <div class="flex-row">
